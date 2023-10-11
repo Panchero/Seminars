@@ -9,3 +9,14 @@
 да 8,9 -> нет
 
 */
+
+Console.Write("Введите первое число: ");
+int n1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введиите втрое число: ");
+int n2 = Convert.ToInt32(Console.ReadLine());
+
+if (n1 * n1 == n2 || n2 * n2 == n1) // && - оператор "и "|| - оператор "или"
+    Console.WriteLine("Число явлеяется квадратом другого");
+else
+    Console.WriteLine("нет");
+
